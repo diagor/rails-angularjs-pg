@@ -25,6 +25,8 @@ This application requires:
 Getting Started
 ---------------
 
+git clone http://github.com/defunkt/facebox.git
+
 
 Documentation and Support
 -------------------------
