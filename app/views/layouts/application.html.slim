@@ -1,13 +1,23 @@
 doctype html
-html
+html ng-app="RailsAngularjsPgClient" lang="en"
   head
     meta[name="viewport" content="width=device-width, initial-scale=1.0"]
+    /! Le HTML5 shim, for IE6-8 support of HTML elements
+    /![if lt IE 9]
+    script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"
+
     title
       = content_for?(:title) ? yield(:title) : 'Rails Angularjs Pg'
     meta name="description" content="#{content_for?(:description) ? yield(:description) : 'Rails Angularjs Pg'}"
     == stylesheet_link_tag "application", :media => 'all', 'data-turbolinks-track' => true
     == javascript_include_tag 'application', 'data-turbolinks-track' => true
     == csrf_meta_tags
+    meta id="csrf" data-csrf="==form_authenticity_token" ng-controller="CsrfCtrl" 
+
+    link href="images/apple-touch-icon.png" rel="apple-touch-icon" 
+    link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" 
+    link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" /
+
   body
     header
       == render 'layouts/navigation'
