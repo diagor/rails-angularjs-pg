@@ -25,7 +25,7 @@ This application requires:
 Getting Started
 ---------------
 
-git clone http://github.com/defunkt/facebox.git
+git clone https://github.com/diagor/rails-angularjs-pg.git
 
 
 Documentation and Support
