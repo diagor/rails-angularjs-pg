@@ -3,31 +3,28 @@ Rails Angularjs Pg
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
+This application focus on activate [AngularJS-Scaffold](https://github.com/patcito/angularjs_scaffold) into this application in order to have a ready-to-clone app.
+In addition, this application provide [devise](https://github.com/plataformatec/devise) for authentication and [pundit](https://github.com/elabs/pundit) for authorization.
 
-Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
+Database used: Postgresql
 
 Problems? Issues?
 -----------
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
 
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn’t work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
 
 Ruby on Rails
 -------------
 
 This application requires:
 
-- Ruby 1.9.3
+- Ruby 1.9.3 or sup.(now running on Ruby-2.1.2)
 - Rails 4.1.4
 
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
 Getting Started
 ---------------
+
 
 Documentation and Support
 -------------------------
@@ -35,14 +32,11 @@ Documentation and Support
 Issues
 -------------
 
-Similar Projects
-----------------
-
-Contributing
-------------
 
 Credits
 -------
+[rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
+
 
 License
 -------
